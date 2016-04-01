@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'recipes_controller/index'
-  root 'recipes_controller#index'
+  get 'recipes/index'
+  root 'recipes#index'
   #get 'recipes_controller/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
